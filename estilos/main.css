@@ -39,10 +39,28 @@ main {
     letter-spacing: 0.3px;
 
     transform: skew(-10deg) ;
+    transition: all 0.4s;
+}
+
+.main_info div button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .main_info div a {
     background: var(--red);
+    font-family: mukta;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transition: all 0.4s;
+}
+
+.main_info div a:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .main_info div button {
